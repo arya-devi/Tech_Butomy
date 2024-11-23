@@ -187,15 +187,15 @@ const App = () => {
         </div>
       </div>
       {/*  card */}
-      <h1 className="text-center font-bold text-3xl mt-14">
+      <h1 className="text-center font-bold text-xl mt-14 sm:text-4xl md:text-3xl lg:text-3xl">
         Limited Time Offer!
       </h1>
-      <p className="text-center font-semibold text-md mb-10 mt-5">
+      <p className="text-center font-semibold text-md mb-10 mt-5 sm:text-lg md:text-xl lg:text-xl">
         Explore our handpicked selection of best-selling products designed to
         make your shopping experience unforgettable. Whether you're upgrading
         your style or finding the perfect gift, we have something just for you!
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mt-10 px-64 mb-10">
+      <div className="grid lg:ml-52 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10 px-5 sm:px-10 md:px-20  mb-10">
         {images.map((image, index) => (
           <div key={index} className="text-center">
             <img
@@ -207,6 +207,7 @@ const App = () => {
           </div>
         ))}
       </div>
+
       <h1 className="text-center font-bold text-3xl mt-28">Shop by Category</h1>
       <p className="text-center font-semibold text-md mb-10 mt-5">
         Discover a wide range of categories from electronics, fashion, home
