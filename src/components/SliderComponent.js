@@ -2,13 +2,13 @@ import React from "react";
 
 const SliderComponent = () => {
   return (
-    <div className="flex bg-[#f8f7f3] p-8 ml-12 mr-12 mt-10">
+    <div className="flex flex-col md:flex-row bg-[#f8f7f3] p-8 mx-4 md:mx-12 mt-10">
       {/* Left Part: Text Content */}
-      <div className="w-1/3 flex flex-col justify-center space-y-4 p-10">
-        <h1 className="text-4xl font-bold text-gray-800">
+      <div className="w-full md:w-1/3 flex flex-col justify-center space-y-4 p-4 md:p-10">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
           50+ Beautiful rooms inspiration
         </h1>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-base md:text-lg">
           Our designer already made a lot of beautiful prototypes of rooms that
           inspire you.
         </p>
@@ -18,9 +18,9 @@ const SliderComponent = () => {
       </div>
 
       {/* Right Part: Images */}
-      <div className="w-2/3 flex space-x-4 p-10">
+      <div className="w-full md:w-2/3 flex flex-col md:flex-row space-y-4 md:space-x-4 p-4 md:p-10">
         {/* Image 1 */}
-        <div className="w-1/2 relative">
+        <div className="w-full md:w-1/2 relative">
           <img
             src="https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Room Inspiration 1"
@@ -33,7 +33,7 @@ const SliderComponent = () => {
         </div>
 
         {/* Image 2 */}
-        <div className="w-1/2 relative">
+        <div className="w-full md:w-1/2 relative">
           <img
             src="https://images.pexels.com/photos/28753142/pexels-photo-28753142/free-photo-of-elegant-modern-living-room-interior-design.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Room Inspiration 2"
