@@ -64,11 +64,11 @@ const Footer = () => {
                   <input
                     type="email"
                     placeholder="Enter your email address"
-                    className="border border-gray-700 rounded-md px-4 py-2 mb-4"
+                    className="border border-gray-700 rounded-md px-2 mb-4"
                   />
                   <button
                     type="submit"
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-2"
+                    className="bg-amber-500 hover:bg-amber-600 text-white font-bold px-2 rounded ml-2"
                   >
                     Subscribe
                   </button>
