@@ -15,7 +15,7 @@ const Products = () => {
         clicks!
       </p>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-8 sm:px-12 md:px-16 lg:px-20">
+      <div className="grid flex justify-center  md:grid-cols-3 lg:grid-cols-4 gap-8 px-8 sm:px-12 md:px-16 lg:px-20">
         {cards.map((photo, index) => (
           <ProductCard key={index} />
         ))}
